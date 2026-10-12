@@ -1,3 +1,4 @@
+<!--
 ## Jordan Docter
 
 
@@ -14,7 +15,7 @@ With Vojtech Havlicek and Subhash Khot.
 
 
 
-<!--
+
 \textbf{A Separation Between Types of Quantum Oracle Separations} \\
 With Scott Aaronson, Adam Bouland, and Barak Nehoran. 
 \\
