@@ -4,11 +4,11 @@
 
 ## Research Publications
 
-### [Planted Cliques and Quantum Symmetry-Adapted Measurements]
+### Planted Cliques and Quantum Symmetry-Adapted Measurements
 
 With Vojtech Havlicek and Subhash Khot.
 
-**[Preprint] · [2026]**
+**Preprint · 2026**
 
 [Paper](https://arxiv.org/abs/2609.40310)
 
