@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f8f7f3">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <nav aria-label="Main navigation">
+        <a href="{{ '/' | relative_url }}#bio">Bio</a>
+        <a href="{{ '/' | relative_url }}#research-publications">Research</a>
+        <a href="{{ '/' | relative_url }}#teaching">Teaching</a>
+        <a href="{{ '/' | relative_url }}#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main-content" class="page-content">
+      {{ content }}
+    </main>
+
+  </body>
+</html>

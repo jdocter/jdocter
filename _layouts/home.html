@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home-grid">
+  <div class="profile-text">
+    <h1>{{ page.title }}</h1>
+    <div class="profile-role">{{ page.role | markdownify }}</div>
+  </div>
+  <div class="profile-photo">
+  {% if page.headshot and page.headshot != '' %}
+  <img class="headshot" src="{{ page.headshot | relative_url }}" alt="{{ page.headshot_alt | escape }}" width="1200" height="802">
+  {% else %}
+  <div class="headshot headshot-placeholder" role="img" aria-label="Headshot placeholder">
+    <span>Your headshot</span>
+  </div>
+  {% endif %}
+  </div>
+
+{{ content }}
+</div>

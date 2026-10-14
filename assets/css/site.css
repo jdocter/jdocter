@@ -1,0 +1,127 @@
+/* Self-hosted EB Garamond. Font license: assets/fonts/OFL.txt. */
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+}
+@font-face {
+  font-family: "EB Garamond";
+  src: url("../fonts/eb-garamond-italic.ttf") format("truetype");
+  font-style: italic;
+  font-weight: 400 800;
+  font-display: swap;
+}
+
+/* EDIT YOUR THEME HERE: these colors and fonts apply across the website. */
+:root {
+  color-scheme: light;
+  --paper: #f8f7f3;
+  --ink: #243e38;
+  --body: #3f4945;
+  --muted: #65716b;
+  --accent: #23634e;
+  --photo-background: #e5e9e1;
+  --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --name-font: "EB Garamond", Garamond, serif;
+  --body-size: 16px;
+  --content-width: 960px;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--body);
+  font-family: var(--body-font);
+  font-size: var(--body-size);
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 4px; }
+a:hover { color: var(--ink); }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
+
+/* Header and navigation. Sections are separated by space, without borders. */
+.site-header {
+  max-width: 1120px;
+  margin-inline: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.site-header { max-width: var(--content-width); min-height: 76px; padding: 24px 40px; justify-content: flex-end; }
+nav { display: flex; flex-wrap: wrap; gap: 12px 28px; }
+nav a { font-size: 14px; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.page-content { max-width: var(--content-width); margin: 0 auto; padding: 56px 40px 64px; min-height: 70vh; overflow-wrap: break-word; }
+
+h1, h2, h3 { color: var(--ink); font-family: var(--name-font); }
+h1 { margin: 0 0 14px; font-family: var(--name-font); font-size: clamp(40px, 6vw, 62px); font-weight: 400; letter-spacing: -0.045em; line-height: 1.12; }
+h2 { margin: 48px 0 26px; font-size: 32px; font-weight: 400; line-height: 1.25; }
+h3 { font-size: inherit; font-weight: 500; }
+p { margin: 14px 0; }
+
+/* Intro: name above the biography on the left, photo on the right. */
+.home-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-rows: min-content auto; column-gap: 56px; row-gap: 18px; align-items: start; }
+.profile-text { grid-column: 1; grid-row: 1; min-width: 0; }
+.profile-role { margin: 0; color: var(--muted); font-size: 16px; }
+.profile-role p { margin: 0; }
+.profile-photo { grid-column: 2; grid-row: 1 / span 2; min-width: 0; }
+.headshot { display: block; width: 100%; height: auto; border-radius: 6px; }
+.headshot-placeholder { display: grid; place-items: center; aspect-ratio: 1200 / 802; background: var(--photo-background); color: var(--muted); font-size: 14px; }
+
+/* Bio, publications, and plain-text contact information. */
+.content-section { margin-top: 52px; }
+.content-section h2 { margin-top: 0; }
+.content-section > :last-child { margin-bottom: 0; }
+.home-grid > .content-section { grid-column: 1 / -1; margin-top: 34px; }
+.home-grid > #bio { grid-column: 1; grid-row: 2; margin-top: 0; }
+.home-grid > #bio > :first-child { margin-top: 0; }
+
+/* Semibold sans-serif paper titles beneath regular Garamond section headings. */
+.publication { margin: 0 0 20px; }
+.publication h3, .publication p {
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+.publication h3 { margin: 0 0 5px; color: var(--ink); font-family: var(--body-font); font-size: 17px; font-weight: 600; }
+.publication p { margin: 0 0 0 20px; font-family: var(--body-font); }
+.publication-authors { color: var(--muted); font-size: 15px; font-weight: 400; }
+.publication-venue { font-size: 14px; font-style: italic; }
+.publication-links { font-size: 14px; }
+.contact p { margin: 6px 0; }
+.contact .agent-contact-note { color: var(--paper); }
+.contact code {
+  display: inline-block;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--photo-background);
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.4;
+}
+ul { padding-left: 21px; }
+li { margin: 10px 0; padding-left: 5px; }
+img { max-width: 100%; height: auto; }
+pre { overflow-x: auto; }
+.skip-link { position: absolute; top: -100px; left: 20px; z-index: 10; padding: 8px 16px; background: var(--ink); color: white; }
+.skip-link:focus { top: 12px; color: white; }
+
+/* Mobile layout. */
+@media (max-width: 640px) {
+  .site-header { align-items: flex-start; flex-direction: column; gap: 18px; padding: 22px 24px; }
+  nav { width: 100%; justify-content: space-between; gap: 16px; }
+  .page-content { padding: 32px 24px 48px; }
+  .home-grid { grid-template-columns: minmax(0, 1fr); row-gap: 18px; }
+  .profile-photo { grid-column: 1; grid-row: 3; }
+  .content-section { margin-top: 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}

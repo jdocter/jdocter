@@ -1,0 +1,36 @@
+title: Jordan Docter
+description: Graduate student at Stanford University
+email: jdocter@stanford.edu
+lang: en-US
+
+# This repository is a project site: https://jdocter.github.io/jdocter/
+domain: jdocter.github.io
+url: "https://jdocter.github.io"
+baseurl: "/jdocter"
+repository: jdocter/jdocter
+
+# The site's design lives in _layouts/default.html and assets/css/site.css.
+theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# Keep development files and the GitHub profile README out of the website.
+exclude:
+  - README.md
+  - SETUP.md
+  - cv.md
+  - imgs/DSC09217.arw
+  - Gemfile
+  - Gemfile.lock
+  - vendor
