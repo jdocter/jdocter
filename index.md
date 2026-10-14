@@ -11,9 +11,9 @@ headshot_alt: Portrait of Jordan Docter
 
 <section id="bio" class="content-section" markdown="1">
 
-My research is in quantum complexity, quantum algorithms and cryptography. I am interested in the strengths and limitations of quantum computers and connections to cryptography. I work on quantum pseudorandomness, cryptographic protocols from non-standard hardness assumptions, and unitary synthesis.
+My research is in quantum complexity, quantum algorithms and cryptography. Some particular topics of interest include quantum pseudorandomness and the limitations of quantum algorithms to give speedups for random inputs.
 
-I am gratedul to be advised by [Adam Bouland](https://theory.stanford.edu/~abouland/) and [Patrick Hayden](https://profiles.stanford.edu/patrick-hayden), and supported by the [Shoucheng Zhang Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship/zhang-fellows). I received my B.S. in EECS and mathematics from MIT.
+I am grateful to be advised by [Adam Bouland](https://theory.stanford.edu/~abouland/) and [Patrick Hayden](https://profiles.stanford.edu/patrick-hayden), and supported by the [Shoucheng Zhang Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship/zhang-fellows). I received my B.S. in EECS and mathematics from MIT.
 
 </section>
 
