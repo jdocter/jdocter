@@ -5,7 +5,7 @@ role: |
   PhD candidate<br>
   [CS theory group](https://theory.stanford.edu/main/index.shtml) at Stanford University
 # Set this to your photo's path, e.g. /assets/images/headshot.jpg.
-headshot: /imgs/headshot.jpg
+headshot: /imgs/DSC09217.JPG
 headshot_alt: Portrait of Jordan Docter
 ---
 
@@ -13,23 +13,23 @@ headshot_alt: Portrait of Jordan Docter
 
 My research is in quantum complexity, quantum algorithms and cryptography. I am interested in the strengths and limitations of quantum computers and connections to cryptography. I work on quantum pseudorandomness, cryptographic protocols from non-standard hardness assumptions, and unitary synthesis.
 
-I am gratedul to be advised by [Adam Bouland](https://theory.stanford.edu/~abouland/) and [Patrick Hayden](https://profiles.stanford.edu/patrick-hayden), and supported by the [Shoucheng Zhang Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship/zhang-fellows).
+I am gratedul to be advised by [Adam Bouland](https://theory.stanford.edu/~abouland/) and [Patrick Hayden](https://profiles.stanford.edu/patrick-hayden), and supported by the [Shoucheng Zhang Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship/zhang-fellows). I received my B.S. in EECS and mathematics from MIT.
 
 </section>
 
 <section id="research-publications" class="content-section publications" markdown="1">
 
-## Research Publications & Preprints
+## Research publications
 {: #publications-heading }
 
 <article class="publication" markdown="1">
 
 ### Planted Cliques and Quantum Symmetry-Adapted Measurements
 
-With Vojtech Havlicek and Subhash Khot.
+Vojtěch Havlíček, Jordan Docter, and [Subhash Khot](https://cs.nyu.edu/~khot/).
 {: .publication-authors }
 
-Preprint 2026.
+Preprint.
 {: .publication-venue }
 
 [arXiv](https://arxiv.org/abs/2609.40310)
@@ -44,10 +44,10 @@ Preprint 2026.
 
 ### A Separation Between Types of Quantum Oracle Separations
 
-With Scott Aaronson, Adam Bouland, and Barak Nehoran.
+[Scott Aaronson](https://scottaaronson.com/), [Adam Bouland](https://theory.stanford.edu/~abouland/), Jordan Docter, and [Barak Nehoran](https://www.bnehoran.com/).
 {: .publication-authors }
 
-Pre-print.
+Preprint.
 {: .publication-venue }
 
 [arXiv](https://arxiv.org/abs/2609.38704)
@@ -59,7 +59,7 @@ Pre-print.
 
 ### Quantum Speedups Require Depth and Adaptivity
 
-With Guy Blanc, Carmen Strassle, Li-Yang Tan.
+[Guy Blanc](https://guyblanc.github.io/), Jordan Docter, [Carmen Strassle](https://cstrassle.github.io/carmenstrassle/), and [Li-Yang Tan](https://theory.stanford.edu/~liyang/).
 {: .publication-authors }
 
 FOCS 2026.
@@ -74,7 +74,7 @@ FOCS 2026.
 
 ### Efficient Unitary T-designs from Random Sums
 
-With Chi-Fang Chen, Adam Bouland, Fernando G. S. L. Brandao, Patrick Hayden and Michelle Xu.
+Chi-Fang Chen, Jordan Docter, Michelle Xu, [Adam Bouland](https://theory.stanford.edu/~abouland/), and [Patrick Hayden](https://web.stanford.edu/~phayden/index.html).
 {: .publication-authors }
 
 FOCS 2024, QIP 2025.
@@ -89,7 +89,7 @@ FOCS 2024, QIP 2025.
 
 ### Efficient unitary designs and pseudorandom unitaries from permutations
 
-With Chi-Fang Chen, Michelle Xu, Adam Bouland and Patrick Hayden.
+Chi-Fang Chen, [Adam Bouland](https://theory.stanford.edu/~abouland/), [Fernando G. S. L. Brandão](https://fernandobrandao.org/), Jordan Docter, [Patrick Hayden](https://web.stanford.edu/~phayden/index.html), and Michelle Xu.
 {: .publication-authors }
 
 FOCS 2024, QIP 2025.
@@ -117,7 +117,7 @@ Spring 2020: Lab assistant for **6.046 (Design and Analysis of Algorithms)** at 
 
 <section id="contact" class="content-section contact" markdown="1">
 
-## Contact Info
+## Contact info
 {: #contact-heading }
 
 Email: `firstinitial` `lastname` `at` **stanford** `dot` **edu**

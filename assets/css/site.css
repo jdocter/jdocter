@@ -26,7 +26,7 @@
   --body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
   --name-font: "EB Garamond", Garamond, serif;
   --body-size: 16px;
-  --content-width: 960px;
+  --content-width: 1200px;
 }
 
 * { box-sizing: border-box; }
@@ -66,11 +66,11 @@ h3 { font-size: inherit; font-weight: 500; }
 p { margin: 14px 0; }
 
 /* Intro: name above the biography on the left, photo on the right. */
-.home-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); grid-template-rows: min-content auto; column-gap: 56px; row-gap: 18px; align-items: start; }
+.home-grid { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); grid-template-rows: min-content auto; column-gap: clamp(32px, 8vw, 112px); row-gap: 18px; align-items: start; }
 .profile-text { grid-column: 1; grid-row: 1; min-width: 0; }
-.profile-role { margin: 0; color: var(--muted); font-size: 16px; }
+.profile-role { margin: 0; color: var(--body); font-size: 16px; }
 .profile-role p { margin: 0; }
-.profile-photo { grid-column: 2; grid-row: 1 / span 2; min-width: 0; }
+.profile-photo { grid-column: 2; grid-row: 1 / span 2; min-width: 0; margin: 0; }
 .headshot { display: block; width: 100%; height: auto; border-radius: 6px; }
 .headshot-placeholder { display: grid; place-items: center; aspect-ratio: 1200 / 802; background: var(--photo-background); color: var(--muted); font-size: 14px; }
 
@@ -119,7 +119,7 @@ pre { overflow-x: auto; }
   nav { width: 100%; justify-content: space-between; gap: 16px; }
   .page-content { padding: 32px 24px 48px; }
   .home-grid { grid-template-columns: minmax(0, 1fr); row-gap: 18px; }
-  .profile-photo { grid-column: 1; grid-row: 3; }
+  .profile-photo { grid-column: 1; grid-row: 3; margin: 0; }
   .content-section { margin-top: 40px; }
 }
 @media (prefers-reduced-motion: reduce) {
