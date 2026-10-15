@@ -24,7 +24,7 @@ I am grateful to be advised by [Adam Bouland](https://theory.stanford.edu/~aboul
 
 <article class="publication" markdown="1">
 
-### Planted Cliques and Quantum Symmetry-Adapted Measurements
+### Planted Cliques and Quantum Symmetry-Adapted Measurements ([arXiv](https://arxiv.org/abs/2609.40310))
 
 Vojtěch Havlíček, Jordan Docter, and [Subhash Khot](https://cs.nyu.edu/~khot/).
 {: .publication-authors }
@@ -32,17 +32,14 @@ Vojtěch Havlíček, Jordan Docter, and [Subhash Khot](https://cs.nyu.edu/~khot/
 Preprint.
 {: .publication-venue }
 
-[arXiv](https://arxiv.org/abs/2609.40310)
-{: .publication-links }
-
 </article>
 
 <!-- To add a publication, copy the article block above and update its details.
-     You can add a Code link beside the Paper link when one is available. -->
+     You can add a Code link beside the arXiv link when one is available. -->
 
 <article class="publication" markdown="1">
 
-### A Separation Between Types of Quantum Oracle Separations
+### A Separation Between Types of Quantum Oracle Separations ([arXiv](https://arxiv.org/abs/2609.38704))
 
 [Scott Aaronson](https://scottaaronson.com/), [Adam Bouland](https://theory.stanford.edu/~abouland/), Jordan Docter, and [Barak Nehoran](https://www.bnehoran.com/).
 {: .publication-authors }
@@ -50,14 +47,11 @@ Preprint.
 Preprint.
 {: .publication-venue }
 
-[arXiv](https://arxiv.org/abs/2609.38704)
-{: .publication-links }
-
 </article>
 
 <article class="publication" markdown="1">
 
-### Quantum Speedups Require Depth and Adaptivity
+### Quantum Speedups Require Depth and Adaptivity ([arXiv](https://arxiv.org/abs/2608.19158))
 
 [Guy Blanc](https://guyblanc.github.io/), Jordan Docter, [Carmen Strassle](https://cstrassle.github.io/carmenstrassle/), and [Li-Yang Tan](https://theory.stanford.edu/~liyang/).
 {: .publication-authors }
@@ -65,29 +59,11 @@ Preprint.
 FOCS 2026.
 {: .publication-venue }
 
-[arXiv](https://arxiv.org/abs/2608.19158)
-{: .publication-links }
-
 </article>
 
 <article class="publication" markdown="1">
 
-### Efficient Unitary T-designs from Random Sums
-
-Chi-Fang Chen, Jordan Docter, Michelle Xu, [Adam Bouland](https://theory.stanford.edu/~abouland/), and [Patrick Hayden](https://web.stanford.edu/~phayden/index.html).
-{: .publication-authors }
-
-FOCS 2024, QIP 2025.
-{: .publication-venue }
-
-[arXiv](https://arxiv.org/abs/2402.09335)
-{: .publication-links }
-
-</article>
-
-<article class="publication" markdown="1">
-
-### Efficient unitary designs and pseudorandom unitaries from permutations
+### Efficient unitary designs and pseudorandom unitaries from permutations ([arXiv](https://arxiv.org/abs/2404.16751))
 
 Chi-Fang Chen, [Adam Bouland](https://theory.stanford.edu/~abouland/), [Fernando G. S. L. Brandão](https://fernandobrandao.org/), Jordan Docter, [Patrick Hayden](https://web.stanford.edu/~phayden/index.html), and Michelle Xu.
 {: .publication-authors }
@@ -95,10 +71,21 @@ Chi-Fang Chen, [Adam Bouland](https://theory.stanford.edu/~abouland/), [Fernando
 FOCS 2024, QIP 2025.
 {: .publication-venue }
 
-[arXiv](https://arxiv.org/abs/2404.16751)
-{: .publication-links }
+</article>
+
+<article class="publication" markdown="1">
+
+### Efficient Unitary T-designs from Random Sums ([arXiv](https://arxiv.org/abs/2402.09335))
+
+Chi-Fang Chen, Jordan Docter, Michelle Xu, [Adam Bouland](https://theory.stanford.edu/~abouland/), and [Patrick Hayden](https://web.stanford.edu/~phayden/index.html).
+{: .publication-authors }
+
+Merged with above work.
+{: .publication-venue }
 
 </article>
+
+
 
 </section>
 
@@ -117,7 +104,7 @@ Spring 2020: Lab assistant for **6.046 (Design and Analysis of Algorithms)** at 
 
 <section id="contact" class="content-section contact" markdown="1">
 
-## Contact info
+## Contact
 {: #contact-heading }
 
 Email: `firstinitial` `lastname` `at` **stanford** `dot` **edu**
