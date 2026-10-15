@@ -51,7 +51,7 @@ Preprint.
 
 <article class="publication" markdown="1">
 
-### Quantum Speedups Require Depth and Adaptivity ([arXiv](https://arxiv.org/abs/2608.19158))
+### Quantum Speedups Require Depth and Adaptivity ([arXiv](https://arxiv.org/abs/2608.19158), [blog post](https://theorydish.blog/2026/09/25/quantum-speedups-require-structure-or-depth/))
 
 [Guy Blanc](https://guyblanc.github.io/), Jordan Docter, [Carmen Strassle](https://cstrassle.github.io/carmenstrassle/), and [Li-Yang Tan](https://theory.stanford.edu/~liyang/).
 {: .publication-authors }
