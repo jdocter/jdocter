@@ -3,10 +3,8 @@ layout: default
 ---
 
 <div class="home-grid">
-  <div class="profile-text">
-    <h1>{{ page.title }}</h1>
-    <div class="profile-role">{{ page.role | markdownify }}</div>
-  </div>
+  <h1 class="profile-name">{{ page.title }}</h1>
+  <div class="profile-role">{{ page.role | markdownify }}</div>
   <div class="profile-photo">
   {% if page.headshot and page.headshot != '' %}
   <img class="headshot" src="{{ page.headshot | relative_url }}" alt="{{ page.headshot_alt | escape }}" width="6000" height="4000">
