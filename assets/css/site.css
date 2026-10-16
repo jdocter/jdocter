@@ -75,7 +75,7 @@ p { margin: 14px 0; }
   letter-spacing: normal;
 }
 .publication h3 { margin: 0 0 5px; color: var(--ink); font-family: var(--body-font); font-size: 17px; font-weight: 600; }
-.publication p { margin: 0 0 0 20px; font-family: var(--body-font); }
+.publication p { margin: 0; font-family: var(--body-font); }
 .publication-authors { color: var(--muted); font-size: 15px; font-weight: 400; }
 .publication-authors a { color: inherit; text-decoration: none; }
 .publication-authors a:hover,
