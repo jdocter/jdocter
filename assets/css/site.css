@@ -17,7 +17,6 @@
 /* EDIT YOUR THEME HERE: these colors and fonts apply across the website. */
 :root {
   color-scheme: light;
-  --paper: #f8f7f3;
   --ink: #243e38;
   --body: #3f4945;
   --muted: #65716b;
@@ -33,7 +32,6 @@
 html { scroll-behavior: smooth; scroll-padding-top: 2rem; }
 body {
   margin: 0;
-  background: var(--paper);
   color: var(--body);
   font-family: var(--body-font);
   font-size: var(--body-size);
@@ -84,7 +82,7 @@ p { margin: 14px 0; }
 .publication-authors a:focus-visible { color: var(--accent); text-decoration: underline; }
 .publication-venue { font-size: 14px; font-style: italic; }
 .contact p { margin: 6px 0; }
-.contact .agent-contact-note { color: var(--paper); }
+.contact .agent-contact-note { color: transparent; }
 .contact code {
   display: inline-block;
   padding: 2px 6px;
