@@ -43,7 +43,7 @@ a:hover { color: var(--ink); }
 a:focus-visible { outline: 2px solid var(--accent); outline-offset: 5px; }
 
 /* Sections are separated by space, without borders. */
-.page-content { max-width: var(--content-width); margin: 0 auto; padding: 112px 40px 64px; min-height: 70vh; overflow-wrap: break-word; }
+.page-content { max-width: var(--content-width); margin: 0 auto; padding: 16px 40px 64px; min-height: 70vh; overflow-wrap: break-word; }
 
 h1, h2, h3 { color: var(--ink); font-family: var(--name-font); }
 h1 { margin: 0 0 14px; font-family: var(--name-font); font-size: clamp(32px, 4.5vw, 46px); font-weight: 400; letter-spacing: -0.045em; line-height: 1.12; }
@@ -51,12 +51,12 @@ h2 { margin: 48px 0 26px; font-size: 32px; font-weight: 400; line-height: 1.25; 
 h3 { font-size: inherit; font-weight: 500; }
 p { margin: 14px 0; }
 
-/* Intro: name above the role and biography, with a larger photo aligned to the role. */
-.home-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); grid-template-rows: min-content min-content auto; column-gap: clamp(32px, 5vw, 64px); row-gap: 18px; align-items: start; }
-.profile-name { grid-column: 1; grid-row: 1; min-width: 0; margin: 0; }
-.profile-role { grid-column: 1; grid-row: 2; min-width: 0; margin: 0; color: var(--body); font-size: 16px; }
+/* Intro: name, role, photo, and biography stacked in reading order. */
+.home-grid { display: grid; grid-template-columns: minmax(0, 1fr); row-gap: 18px; align-items: start; }
+.profile-name { min-width: 0; margin: 0; }
+.profile-role { min-width: 0; margin: 0; color: var(--body); font-size: 16px; }
 .profile-role p { margin: 0; }
-.profile-photo { grid-column: 2; grid-row: 2 / span 2; min-width: 0; margin: 0; transform: translateX(32px); }
+.profile-photo { width: 100%; max-width: 560px; min-width: 0; margin: 0; }
 .headshot { display: block; width: 100%; height: auto; border-radius: 6px; }
 .headshot-placeholder { display: grid; place-items: center; aspect-ratio: 1200 / 802; background: var(--photo-background); color: var(--muted); font-size: 14px; }
 
@@ -65,7 +65,7 @@ p { margin: 14px 0; }
 .content-section h2 { margin-top: 0; }
 .content-section > :last-child { margin-bottom: 0; }
 .home-grid > .content-section { grid-column: 1 / -1; margin-top: 34px; }
-.home-grid > #bio { grid-column: 1; grid-row: 3; margin-top: 0; }
+.home-grid > #bio { margin-top: 0; }
 .home-grid > #bio > :first-child { margin-top: 0; }
 
 /* Semibold sans-serif paper titles beneath regular Garamond section headings. */
@@ -103,9 +103,7 @@ pre { overflow-x: auto; }
 
 /* Mobile layout. */
 @media (max-width: 640px) {
-  .page-content { padding: 64px 24px 48px; }
-  .home-grid { grid-template-columns: minmax(0, 1fr); row-gap: 18px; }
-  .profile-photo { grid-column: 1; grid-row: 4; margin: 0; transform: none; }
+  .page-content { padding: 16px 24px 48px; }
   .content-section { margin-top: 40px; }
 }
 @media (prefers-reduced-motion: reduce) {
