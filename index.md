@@ -11,7 +11,7 @@ headshot_alt: Portrait of Jordan Docter
 
 <section id="bio" class="content-section" markdown="1">
 
-My research is in quantum complexity, quantum algorithms and cryptography. Some particular topics of interest include quantum pseudorandomness and the limitations of quantum algorithms to give speedups for random inputs.
+My research is in quantum complexity, quantum algorithms and cryptography. Some particular topics of interest include quantum pseudorandomness and the nature of quantum speedups.
 
 I am grateful to be advised by [Adam Bouland](https://theory.stanford.edu/~abouland/) and [Patrick Hayden](https://profiles.stanford.edu/patrick-hayden), and supported by the [Shoucheng Zhang Graduate Fellowship](https://vpge.stanford.edu/fellowships-funding/shoucheng-zhang-fellowship/zhang-fellows). I received my B.S. in EECS and mathematics from MIT, and minored in music. 
 
@@ -80,7 +80,7 @@ FOCS 2024, QIP 2025.
 Chi-Fang Chen, Jordan Docter, Michelle Xu, [Adam Bouland](https://theory.stanford.edu/~abouland/), and [Patrick Hayden](https://web.stanford.edu/~phayden/index.html).
 {: .publication-authors }
 
-Merged with above work.
+FOCS 2024, QIP 2025 (Merged with above work).
 {: .publication-venue }
 
 </article>
