@@ -85,7 +85,18 @@ FOCS 2024, QIP 2025 (Merged with above work).
 
 </article>
 
+## Other work
+{: #publications-heading }
 
+<article class="publication" markdown="1">
+
+
+### [Proof of the Aaronson–Ambainis Conjecture: An Exposition](/assets/AA_Exposition.pdf)
+
+[Guy Blanc](https://guyblanc.github.io/), Jordan Docter, [Carmen Strassle](https://cstrassle.github.io/carmenstrassle/), and [Li-Yang Tan](https://theory.stanford.edu/~liyang/).
+{: .publication-authors }
+
+</article>
 
 </section>
 
